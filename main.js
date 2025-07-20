@@ -25,7 +25,7 @@ operasiButtons.forEach(btn => {
 // Tombol =
 tombolHasil.addEventListener('click', () => {
   try {
-    input.value = 'Hello world';
+    input.value = "Hello world";
     ekspresi = input.value;
   } catch (e) {
     input.value = 'Error';
