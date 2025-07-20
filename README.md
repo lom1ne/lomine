@@ -1,0 +1,2 @@
+# lomine
+Kalkulator by lomine
