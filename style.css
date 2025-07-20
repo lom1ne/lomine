@@ -1,0 +1,112 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+  background: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  background: #2c2c3c;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 320px;
+}
+
+/* Title */
+.title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input */
+#input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #1c1c2b;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+/* Button umum */
+button {
+  width: 22%;
+  padding: 15px 0;
+  margin: 2% 2%;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Tombol angka */
+.angka {
+  background: #4a4a6a;
+  color: #fff;
+}
+.angka:hover {
+  background: #5f5f80;
+}
+
+/* Tombol operasi */
+.operasi {
+  background: #ff9f43;
+  color: #fff;
+}
+.operasi:hover {
+  background: #ffa94d;
+}
+
+/* Tombol hasil (=) */
+#hasil {
+  background: #28c76f;
+  color: white;
+}
+#hasil:hover {
+  background: #2fd877;
+}
+
+/* Tombol clear (C) */
+#hapus {
+  background: #ea5455;
+  color: white;
+}
+#hapus:hover {
+  background: #f16667;
+}
+
+/* Responsive tombol agar rapih di bawah */
+.container button {
+  display: inline-block;
+}
+
+/* Responsive input font */
+@media screen and (max-width: 400px) {
+  #input {
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+}
